@@ -336,7 +336,7 @@ def create_category_chart(df: pd.DataFrame):
 # ---------- Main App ----------
 def main():
     st.set_page_config(
-        page_title="💰 Smart Wealth Tracker",
+        page_title="Wealthic",
         page_icon="💰",
         layout="wide"
     )
@@ -372,7 +372,7 @@ def main():
     # Header
     st.markdown("""
     <div class="main-header">
-        <h1>💰 Smart Wealth Tracker</h1>
+        <h1>Wealthic</h1>
         <p>AI-Powered Personal Finance Management</p>
     </div>
     """, unsafe_allow_html=True)
@@ -779,7 +779,7 @@ Current spending: ₹{metrics['expenses']:,.0f}. You're {'under' if metrics['exp
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #666; padding: 1rem;'>
-        💰 Smart Wealth Tracker | AI-Powered Financial Management | BUilt BY MAINAK BOSE 
+        💰 Smart Wealth Tracker | AI-Powered Financial Management | Built BY MAINAK BOSE 
     </div>
     """, unsafe_allow_html=True)
 
