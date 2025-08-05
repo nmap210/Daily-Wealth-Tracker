@@ -1,0 +1,32 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python-envs.pythonProjects": [],
+    "autorun-python-virtual-environment.runOnSave": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "PowerShell customenv": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-Command",
+                ". '${workspaceFolder}\\.vscode\\Microsoft.PowerShell_profile.ps1'"
+            ],
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell customenv"
+}
