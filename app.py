@@ -598,7 +598,7 @@ def main():
                 st.rerun()
     
     with tab3:
-        st.markdown("### 🤖 AI Financial Advisor Chat")
+        st.markdown("### 🤖  MAINAK AI Financial Advisor Chat")
         
         df = load_data()
         
@@ -779,7 +779,7 @@ Current spending: ₹{metrics['expenses']:,.0f}. You're {'under' if metrics['exp
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #666; padding: 1rem;'>
-        💰 Smart Wealth Tracker | AI-Powered Financial Management | Built with Streamlit & Local LLM
+        💰 Smart Wealth Tracker | AI-Powered Financial Management | BUilt BY MAINAK BOSE 
     </div>
     """, unsafe_allow_html=True)
 
