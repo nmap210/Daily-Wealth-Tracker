@@ -3,6 +3,3 @@ pandas
 numpy
 plotly
 requests
-sqlite3  # This is part of the standard library, but safe to include
-hashlib
-dataclasses
